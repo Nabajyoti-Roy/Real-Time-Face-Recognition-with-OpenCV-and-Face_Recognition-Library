@@ -1,4 +1,11 @@
-Real-Time Face Recognition with OpenCV and Face_Recognition Library
+# Real-Time Face Recognition with OpenCV and Face_Recognition Library
+
+
+
+
+
+
+
 This Python script demonstrates a real-time face recognition system that uses OpenCV for video capture and visualization, along with the face_recognition library for face detection and recognition. The program identifies pre-registered individuals from a webcam feed and displays their names on the video.
 
 Features:
