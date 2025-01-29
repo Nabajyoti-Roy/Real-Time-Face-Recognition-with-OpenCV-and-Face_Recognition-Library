@@ -65,13 +65,21 @@ The webcam feed will appear with bounding boxes and names around recognized face
 Quit:
 
 Press the q key to terminate the program.
-Notes:
-Face Detection Accuracy:
+
+
+#Notes:
+#Face Detection Accuracy:
 Ensure reference images are clear and well-lit for better recognition.
 The hog model is used for face detection. For higher accuracy, use the cnn model (requires GPU support).
-Performance:
+
+
+#Performance:
 Reducing the frame size (using cv2.resize) significantly improves processing speed.
-Error Handling:
+
+
+#Error Handling:
+
+
 The script handles cases where no faces are detected in the reference images or if the webcam fails to start.
 This project is a great starting point for implementing real-time face recognition in various applications, including security systems and attendance tracking. Further enhancements, such as integrating a database or logging recognized faces, can be added as needed.
 
